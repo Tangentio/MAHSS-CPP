@@ -120,3 +120,16 @@ body {
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
 }
+background-image: linear-gradient(
+  130deg,
+  hsl(278deg 100% 11%) 72%,
+  hsl(272deg 82% 11%) 93%,
+  hsl(267deg 66% 12%) 99%,
+  hsl(261deg 55% 12%) 101%,
+  hsl(256deg 45% 12%) 101%,
+  hsl(252deg 37% 12%) 102%,
+  hsl(248deg 29% 12%) 101%,
+  hsl(245deg 20% 12%) 101%,
+  hsl(242deg 12% 11%) 101%,
+  hsl(240deg 2% 11%) 100%
+);
