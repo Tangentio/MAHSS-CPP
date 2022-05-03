@@ -74,19 +74,29 @@
 }
 
 body {
-    background-image: linear-gradient(
-  130deg,
-  hsl(278deg 100% 11%) 72%,
-  hsl(272deg 82% 11%) 93%,
-  hsl(267deg 66% 12%) 99%,
-  hsl(261deg 55% 12%) 101%,
-  hsl(256deg 45% 12%) 101%,
-  hsl(252deg 37% 12%) 102%,
-  hsl(248deg 29% 12%) 101%,
-  hsl(245deg 20% 12%) 101%,
-  hsl(242deg 12% 11%) 101%,
-  hsl(240deg 2% 11%) 100%
-);
+    background-image: linear-gradient(130deg,
+        hsl(278deg 100% 11%) 14%,
+        hsl(272deg 90% 16%) 41%,
+        hsl(270deg 88% 20%) 52%,
+        hsl(269deg 88% 23%) 61%,
+        hsl(268deg 87% 25%) 67%,
+        hsl(268deg 87% 28%) 73%,
+        hsl(267deg 87% 30%) 77%,
+        hsl(267deg 87% 32%) 81%,
+        hsl(267deg 87% 34%) 85%,
+        hsl(267deg 87% 36%) 87%,
+        hsl(267deg 86% 38%) 90%,
+        hsl(266deg 86% 40%) 92%,
+        hsl(266deg 86% 41%) 94%,
+        hsl(266deg 86% 43%) 96%,
+        hsl(266deg 86% 44%) 98%,
+        hsl(266deg 86% 46%) 99%,
+        hsl(266deg 86% 47%) 100%,
+        hsl(266deg 86% 49%) 101%,
+        hsl(266deg 86% 50%) 101%,
+        hsl(266deg 90% 51%) 102%,
+        hsl(266deg 95% 52%) 102%,
+        hsl(266deg 100% 54%) 101%);
 }
 /* From uiverse.io by @satyamchaudharydev */
 /* === removing default button style ===*/
