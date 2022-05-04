@@ -1,84 +1,6 @@
-/* From uiverse.io by @EmmaxPlay */
-.btn {
-    padding: 0.9em 1.6em;
-    border: none;
-    outline: none;
-    color: #FFF;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 17px;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 12px;
-}
-
-.btn::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(46, 46, 46);
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-    }
-    
-    /* glow */
-    .btn::before {
-        content: "";
-        background: linear-gradient(45deg,
-                #FF0000, #002BFF, #FF00C8, #002BFF,
-                #FF0000, #002BFF, #FF00C8, #002BFF);
-        position: absolute;
-        top: -2px;
-        left: -2px;
-        background-size: 600%;
-        z-index: -1;
-        width: calc(100% + 4px);
-        height: calc(100% + 4px);
-        filter: blur(8px);
-        animation: glowing 20s linear infinite;
-        transition: opacity .3s ease-in-out;
-        border-radius: 10px;
-        opacity: 0;
-    }
-    
-    @keyframes glowing {
-        0% {
-            background-position: 0 0;
-        }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
-
-/* hover */
-.btn:hover::before {
-    opacity: 1;
-}
-
-.btn:active:after {
-    background: transparent;
-}
-
-.btn:active {
-    color: #000;
-    font-weight: bold;
-}
-
 body {
-    background: rgb(7, 1, 108);
-    background: linear-gradient(90deg, rgba(7, 1, 108, 1) 0%, rgba(91, 0, 237, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background: rgb(4, 19, 25);
 }
-/* From uiverse.io by @satyamchaudharydev */
-/* === removing default button style ===*/
 .button {
     margin: 0;
     background: transparent;
@@ -88,18 +10,18 @@ body {
 
 /* button styling */
 .button {
-    --border-right: 6px;
-    --text-stroke-color: rgba(255, 255, 255, 0.6);
-    --animation-color: #37FF8B;
-    --fs-size: 2.3em;
+    --border-right: 0px;
+    --text-stroke-color: rgb(0, 255, 119);
+    --animation-color: #00fda9;
+    --fs-size: 15em;
     letter-spacing: 3px;
     text-decoration: none;
     font-size: var(--fs-size);
-    font-family: "Arial";
+    font-family: "Norwester";
     position: relative;
-    text-transform: uppercase;
+    text-transform: full-width;
     color: transparent;
-    -webkit-text-stroke: 1px var(--text-stroke-color);
+    -webkit-text-stroke: 0.5px var(--text-stroke-color);
 }
 
 /* this is the text, when you hover on button */
@@ -111,13 +33,22 @@ body {
     width: 0%;
     inset: 0;
     border-right: var(--border-right) solid var(--animation-color);
-    overflow: hidden;
-    transition: 0.5s;
+    overflow: clip;
+    transition: 0.4s;
     -webkit-text-stroke: 1px var(--animation-color);
 }
 
 /* hover */
 .button:hover .hover-text {
     width: 100%;
-    filter: drop-shadow(0 0 23px var(--animation-color))
+    filter: drop-shadow(0 0 250px var(--animation-color))
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
