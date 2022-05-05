@@ -21,7 +21,7 @@ body {
     position: relative;
     text-transform: full-width;
     color: transparent;
-    -webkit-text-stroke: 0.5px var(--text-stroke-color);
+    -webkit-text-stroke: 0.7px var(--text-stroke-color);
 }
 
 /* this is the text, when you hover on button */
