@@ -1,5 +1,6 @@
 body {
     background: rgb(4, 19, 25);
+    
 }
 .button {
     margin: 0;
@@ -13,7 +14,7 @@ body {
     --border-right: 0px;
     --text-stroke-color: rgb(0, 255, 119);
     --animation-color: #00fda9;
-    --fs-size: 15em;
+    --fs-size: 200px;
     letter-spacing: 3px;
     text-decoration: none;
     font-size: var(--fs-size);
