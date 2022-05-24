@@ -15,7 +15,7 @@ body {
     --border-right: 0px;
     --text-stroke-color: rgb(0, 255, 119);
     --animation-color: #00fda9;
-    --fs-size: 200vw;
+    --fs-size: 150px;
     letter-spacing: 3px;
     text-decoration: none;
     font-size: var(--fs-size);
