@@ -6,6 +6,13 @@
             src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=3000&color=659AD2&center=true&vCenter=true&lines=Mushtifund+Aryaan+-+CS&width=600" /></a></p>
 </p>
 
+<p align="center" href="https://wakatime.com/badge/user/bd7229f6-884b-40b0-8232-704fda147db1/project/729e9a35-42cc-4ac5-9bbf-8430c571751a"><img src="https://wakatime.com/badge/user/bd7229f6-884b-40b0-8232-704fda147db1/project/729e9a35-42cc-4ac5-9bbf-8430c571751a.svg" alt="walkaatime"></p>
+
+<h1 align = "center">
+    <a href = "https://github.com/Atharv115/MAHSS-CPP/tree/main/Finals">🎉⚠️Finals Docs available⚠️🎉
+    </a>
+</h1>
+
 <h4 align="center">
     Repo for all <strong>C++</strong> programs taught in school & Sorted in Folders for better productivity
 </h3>
@@ -14,10 +21,13 @@
 
 <div align="center">
 
-| | | | | | 
+| | | | | |
 | :-: | :-: | :-: | :-: | :-: |
-|1.|[**Palindrome**]|[**Fibonacci**]|[**Palindrome Function**]|[**Fibonacci Function**]|
-|2.|[**Palindrome_Class**]| [**Fibonacci Class**] |
+|  1.   |    [**Palindrome**]    |    [**Fibonacci**]    | [**Palindrome Function**] | [**Fibonacci Function**] |
+|  2.   | [**Palindrome_Class**] | [**Fibonacci Class**] |  [**Prime & Composite**]  | [**Union & Intersection**] |
+|  3.   | [**Reversing NO.**]    | [**Student class**]   | [**Books**] | [**HW class item**] |
+|  4.   | [**Sin(x)**] | [**Marks & %age**] | [**Distance**] | [**Employee**] |
+|  5.   | [**diff  types Construcors**] | [**Travel Agency**] |
 
 </div>
 
@@ -27,3 +37,29 @@
 [**Fibonacci Function**]: https://github.com/Atharv115/MAHSS-CPP/blob/main/Fibonacci_using_Functions.cpp 
 [**Palindrome_Class**]: https://github.com/Atharv115/MAHSS-CPP/blob/main/Palindrome_Class.cpp
 [**Fibonacci Class**]: https://github.com/Atharv115/MAHSS-CPP/blob/main/Fib_class.cpp
+[**Prime & Composite**]: https://github.com/Atharv115/MAHSS-CPP/blob/main/Prime_Composite_class.cpp
+[**Union & Intersection**]: https://github.com/Atharv115/MAHSS-CPP/blob/main/array_union_intersect.cpp
+[**Reversing NO.**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/rev_integer.cpp
+[**Student class**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/Student_class.cpp
+[**Books**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/book.cpp
+[**HW class item**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/item.cpp
+[**Sin(x)**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/sinx_tr.cpp
+[**Marks & %age**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/marks_and_percent.cpp
+[**Distance**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/distance.cpp
+[**Employee**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/employee.cpp
+[**diff  types Construcors**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/Employee_pro_max.cpp
+[**Travel Agency**]:https://github.com/Atharv115/MAHSS-CPP/blob/main/Aryaans_travelagency.cpp
+
+also included
+* [**Structure of URL**](https://github.com/Atharv115/MAHSS-CPP/blob/main/Structure%20of%20URL.jpg)
+* [**CS Paper Solution FA1 Q8A & Q8B**](https://github.com/Atharv115/MAHSS-CPP/tree/main/CS%20Paper%20Solution)
+  
+
+
+Some useful videos
+* [**Pass by Value | Pass by Reference | Pass by Address**](https://youtu.be/-NS3KfrSvU8)
+* [**Pointers**](https://www.youtube.com/watch?v=fBlM7pR2r_Q)
+* [**Copy Constructor**](https://www.youtube.com/watch?v=Nc60Ueb7bY8)
+
+VS Code Setup **Guide/Tutorial**<br>
+- [x] This [blog](https://gourav.io/blog/setup-vscode-to-run-debug-c-cpp-code) has all the required material for setting VSC for **C++ Development**
